@@ -54,7 +54,6 @@ button a:hover{
 .Potname h3{
   margin: 0px;
 }
-
 /*hero*/
 .hero {
     background-color: #e3e9f6;
@@ -80,7 +79,6 @@ button a:hover{
     }
     
 .img1 {
-   
     height: 20%;
     align-self: center; 
     display: block;
@@ -111,3 +109,22 @@ div .sup  {
     font-size: 18px;
     text-wrap: nowrap;
 }
+
+/*Rates*/
+.rates  {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.number{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.Description{
+    font-size: 1.5rem;
+}
+div .col{
+    
+    align-items: center;
+    height:50%;
+}
+
