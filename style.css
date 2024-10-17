@@ -54,3 +54,60 @@ button a:hover{
 .Potname h3{
   margin: 0px;
 }
+
+/*hero*/
+.hero {
+    background-color: #e3e9f6;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    padding-right: 30px; /* Adjust the value as needed */
+    }
+    
+    .row > .col:first-child {
+        margin-right: 20px; /* Adjust the value as needed */
+    }
+    .row > .col:nth-child(2) {
+        margin-left: 20px; /* Adjust the value as needed */
+
+    }
+    
+.img1 {
+   
+    height: 20%;
+    align-self: center; 
+    display: block;
+}
+
+.title-section {
+    display: flex;
+    align-items: baseline; /* Align the items horizontally on the same line */
+    gap: 10px; /* Add space between "Tech Enthusiast" and "yes! I am" */
+}
+
+
+
+div .pot, div .sup {
+    margin: 0; /* Remove default margin */
+}
+.pot{
+    font-weight: bold;
+    font-size: 3em;
+    text-wrap: nowrap;
+}
+div .sup  {
+    font-size: 21px;
+    text-wrap: nowrap;
+       
+}
+.tittle{
+    font-size: 18px;
+    text-wrap: nowrap;
+}
