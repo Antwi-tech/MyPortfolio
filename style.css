@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: red;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+nav a{
+    text-decoration: none;
+
+}
+.header ul {
+    display: flex; /* Ensure list items are aligned horizontally */
+    gap: 50px;/* Add space between the list items */
+    margin: 0;
+    padding: 0;
+}
+.header a{
+    color: white;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 1vh;
+    font-size: 18px;
+}
+nav .Profile{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+button{
+    padding: 5px 8px 5px 8px;
+    border-radius: 10%;
+    background-color: blue;  
+}
+ button  a{
+    color: white;
+}
+button a:hover{
+    color: red
+}
+.Potname{
+    background-color:#FAFAFA ;
+    text-align: center;
+   
+    
+}
+.Potname h3{
+  margin: 0px;
+}
