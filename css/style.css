@@ -127,4 +127,87 @@ div .col{
     align-items: center;
     height:50%;
 }
+/*About Me*/
+
+.about{
+    padding-top: 2em;
+    margin-top: 2rem;
+    padding-bottom: 2em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.Img1{
+    background-color: rgb(92, 197, 160);
+    width: 25%;
+}
+.Img2{
+    background-color: rgb(236, 145, 7);
+    width: 25%;
+}
+.Img3{
+
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 25%;
+}
+.Img4{
+    background-color: aqua;
+    width: 25%;
+}
+
+.column{
+    gap:20%;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    height: 500px;
+
+}
+
+
+.column2{
+    width: 50%;
+}
+.column1 {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr; /* Two columns of equal width */
+    grid-template-rows: 1fr 1fr; /* Two rows of equal height */
+    width: 50%; /* Adjust this as needed */
+    height: 90%; /* Adjust the height as needed */
+    /* Optional: adds space between the divs */
+
+}
+
+.re {
+    background-image: url(images/pic45.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.ra {
+    background-image: url(images/pic\ 6121.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   
+}
+.rt ,.rd{
+    width: 60%;
+    height: 60%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;;
+}
+.rt {
+    background-color: red;
+  
+    
+}
+
+.rd {
+    background-color: blue;
+   
+}
+div .journey{
+    font-size: 16px;
+    margin-top: 2em;
+}
 
