@@ -211,3 +211,62 @@ div .journey{
     margin-top: 2em;
 }
 
+/*Experience*/
+.ecg{
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 0.35fr 0.4fr; /* Adjust as needed */
+    align-items: center;
+    gap: 10px; /* Add space between the image and text */
+}
+.imgpic {
+    width: 100%; /* Make image responsive within the container */
+}
+
+.img24{
+    width: 100px; /* Set the fixed width */
+    overflow: hidden; /* Ensure any overflow is hidden */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp {
+    background-color: #e3e9f6;
+    margin-top: 20px;
+    display: grid;
+    place-items: center; /* Centers content both horizontally and vertically */
+    margin-bottom: 20px;
+    padding-bottom: 90px;
+}
+.experience{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+   
+}
+.content{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr ;
+    gap:50px ;
+    place-items: center;
+    padding-bottom: 20px;
+
+}
+.bgcontent{
+    background-color: white;
+    width: 90%;
+}
+.jobexp{
+    text-wrap: nowrap;
+    margin: 0;
+}
+.jobexp h5{
+    margin-bottom: 0;
+    font-size: 16px;
+
+}
+.jobexp h3{
+    font-size: 25px;
+}
+
