@@ -9,15 +9,16 @@ pipeline{
   }
   stages {
 
-    stage("Pull project from github")
-
-      step{
+    stage("Pull project from github") {
+      steps {
 
         git branch: 'main', url:'https://github.com/Antwi-tech/MyPortfolio.git'
-              }
+
+    }
+       }
     stage("Docker login and create the container"){
 
-      step{
+      steps {
         sh '''
         docker login -u $DOCKER_USERNAME -p DOCKER_PASSWORD
         build -t $DOCKER_USERNAME/my_portfolio:v1  
@@ -28,7 +29,7 @@ pipeline{
     }
 
   stage("Deploy to S3-bucket using terraform")  {
-    step{
+    steps {
 
        sh '''
                 set -e
